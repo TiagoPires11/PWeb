@@ -1,4 +1,4 @@
-/* Resetando estilos padrões */
+
 * {
     margin: 0;
     padding: 0;
@@ -125,7 +125,7 @@ footer {
     padding: 20px 10px; /* Padding maior nas laterais e menor no topo e embaixo */
     position: relative; /* Relativo para garantir que o conteúdo não se sobreponha */
     width: 100%;
-    margin-top: auto; /* Empurra o rodapé para o fundo */
+    margin-top: auto; /* rodapé para o fundo */
 }
 
 footer p {
@@ -137,24 +137,6 @@ footer a {
     color: #FFEB3B; /* Cor de links amarela */
     text-decoration: none; /* Remove o sublinhado dos links */
     font-weight: bold; /* Deixa os links em negrito */
-    transition: color 0.3s ease; /* Efeito suave na troca de cor */
+    transition: color 0.3s ease; /* Efeito na troca de cor */
 }
 
-footer a:hover {
-    color: #4CAF50; /* Muda para verde quando o mouse passa por cima */
-}
-
-/* Estilo para um container de links no footer */
-footer .social-links {
-    margin-top: 15px;
-}
-
-footer .social-links a {
-    margin: 0 10px; /* Espaço entre os links */
-    font-size: 1.2rem; /* Tamanho maior para os ícones sociais */
-    transition: transform 0.3s ease;
-}
-
-footer .social-links a:hover {
-    transform: scale(1.2); /* Efeito de aumento ao passar o mouse */
-}
