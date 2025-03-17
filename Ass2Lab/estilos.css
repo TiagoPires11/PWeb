@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilização do título */
+h1 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 160%; /* Garante que o h1 ocupa quase toda a largura */
+    max-width: 600px; /* Evita que fique muito largo */
+    margin: 20px auto; /* Centraliza e dá um espaçamento */
+    display: flex; /* Garante que o conteúdo fique alinhado corretamente */
+    justify-content: center; /* Centraliza o texto dentro do h1 */
+    align-items: center; /* Mantém o texto bem alinhado verticalmente */
+    min-height: 60px; /* Garante uma altura mínima para o fundo ficar bem visível */
+    text-align: center; /* Alinha o texto */
+}
+
+/* Quando o botão for clicado */
+h1.clicado {
+    background-color: red !important; /* Aplica o fundo vermelho corretamente */
+    color: white;
+}
+
+
+
+/* Efeito ao mudar de cor */
+h1.clicado {
+    background-color: #ff4d4d !important;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Botão estilizado */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o cursor no botão */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+/* Campo de texto */
+input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+/* Efeito ao focar no input */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Lista de itens */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #fff;
+    padding: 12px;
+    margin: 6px auto;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Efeito ao passar o cursor na lista */
+li:hover {
+    background: #e9ecef;
+    transform: scale(1.03);
+}
+
+/* Efeito ao clicar num item da lista */
+li:active {
+    transform: scale(0.95);
+    background: #dc3545;
+    color: white;
+}
